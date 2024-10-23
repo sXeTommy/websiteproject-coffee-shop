@@ -14,6 +14,12 @@
       width: 100%;
     }
   }
+@media screen and (orientation: portrait) {
+  .navbar {
+    padding: auto;
+    font-size: 50%;
+  }
+}
 :root {
     --primary-color: #fffdfa;
     --secondary-color: #C1730E;
