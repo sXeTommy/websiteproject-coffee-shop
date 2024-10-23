@@ -7,16 +7,12 @@
     }
   
     .container .navbar {
-      flex-direction: row nowrap;
-      height: auto;
-      max-width: max-content;
-      min-width: min-content;
+      float: none;
+      width: 100%;
     }
     .container2 .socials {
-      flex-direction: row nowrap;
-      height: auto;
-      max-width: max-content;
-      min-width: min-content;
+      float: none;
+      width: 100%;
     }
     .column {
       width: auto;
