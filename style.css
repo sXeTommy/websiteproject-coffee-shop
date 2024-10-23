@@ -2,13 +2,21 @@
 @media screen and (min-width: 414px) and (max-width: 828px) {
     .container {
       height: auto;
+      max-width: max-content;
+      min-width: min-content;
     }
   
     .container .navbar {
       flex-direction: row nowrap;
+      height: auto;
+      max-width: max-content;
+      min-width: min-content;
     }
     .container2 .socials {
       flex-direction: row nowrap;
+      height: auto;
+      max-width: max-content;
+      min-width: min-content;
     }
     .column {
       width: auto;
