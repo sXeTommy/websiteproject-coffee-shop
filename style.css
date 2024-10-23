@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap");
-@media screen and (min-width: 390px) and (max-width: 828px) {
+@media screen and (min-width: 828px) and (max-width: 828px) {
     .container {
       height: 100%;
     }
   
     .container .navbar {
-      flex-direction: column;
+      flex-direction: row;
+    }
+    .container2 .socials {
+      flex-direction: row;
     }
     .column {
       width: 100%;
