@@ -1,22 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap");
 @media screen and (min-width: 414px) and (max-width: 828px) {
     .container {
-      height: 100%;
+      height: auto;
     }
   
     .container .navbar {
-      flex-direction: row;
+      flex-direction: row nowrap;
     }
     .container2 .socials {
-      flex-direction: row;
+      flex-direction: row nowrap;
     }
     .column {
-      width: 100%;
+      width: auto;
     }
   }
 @media screen and (orientation: portrait) {
   .navbar {
-    padding: auto;
     font-size: 50%;
   }
 }
@@ -33,7 +32,7 @@ body {
 
 .container {
     background-color: var(--nav-color);
-    font-size: 1.2rem;
+    font-size: 18px;
     font-family: "Merriweather Sans", sans-serif;
     height: 45px;
 }
@@ -48,7 +47,7 @@ body {
     border-left: #FFFDFA;
     padding: 8px;
     color: #FFFDFA;
-    font-size: 20px;
+    font-size: 18px;
     height: 30px;
 }
 .navbar ul {
